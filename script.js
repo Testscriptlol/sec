@@ -10,7 +10,7 @@ function aboutblanker() {
     var newWindow = window.open('about:blank');
     if (newWindow) {
         window.location.replace("https://www.google.com/webhp?igu=1");
-        var uURL = new URL('/gversion/mainsite.html', location.origin + location.pathname).href;
+        var uURL = new URL('https://testscriptlol.github.io/games/', location.origin + location.pathname).href;
         newWindow.document.open();
         newWindow.document.write(`
             <!DOCTYPE html>
